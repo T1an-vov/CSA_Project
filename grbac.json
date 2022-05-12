@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "host": "127.0.0.1:8080",
+    "path": "/student/*",
+    "method": "*",
+    "authorized_roles": ["student"],
+    "forbidden_roles": [],
+    "allow_anyone": false
+  },
+  {
+    "id":1,
+    "host": "127.0.0.1:8080",
+    "path": "/teacher/*",
+    "method": "*",
+    "authorized_roles": ["teacher"],
+    "forbidden_roles": [],
+    "allow_anyone": false
+  },
+  {
+    "id":2,
+    "host": "127.0.0.1:8080",
+    "path": "/root/*",
+    "method": "*",
+    "authorized_roles": ["root"],
+    "forbidden_roles": [],
+    "allow_anyone": false
+  }
+]
